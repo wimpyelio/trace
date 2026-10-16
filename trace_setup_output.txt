@@ -1,0 +1,2697 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261016214938
+Username: DESKTOP-7OB7NFF\Dr Anjana`s Dental
+RunAs User: DESKTOP-7OB7NFF\Dr Anjana`s Dental
+Configuration Name: 
+Machine: DESKTOP-7OB7NFF (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Dr Anjana`s Dental\AppData\Local\Programs\Microsoft VS Code\16507d91be\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 10588
+PSVersion: 5.1.19041.6033
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6033
+BuildVersion: 10.0.19041.6033
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\trace_setup_output.txt
+PS E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace>
+(trace) Get-ChildItem -Force
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        16-10-2026     20:22                .pytest_cache
+d-----        16-10-2026     20:23                .venv
+d-----        16-10-2026     20:54                .vscode
+d-----        16-10-2026     21:44                backend
+d-----        16-10-2026     20:22                docs
+d-----        16-10-2026     20:23                frontend
+d-----        16-10-2026     20:23                trace
+-a----        16-10-2026     21:42            894 .env
+-a----        16-10-2026     20:29            692 .env.example
+-a----        15-10-2026     19:19            144 .gitignore
+-a----        16-10-2026     20:29           1217 docker-compose.yml
+-a----        15-10-2026     19:19          11667 README.md
+-a----        16-10-2026     21:49           1012 trace_setup_output.txt
+
+
+PS E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace>
+(trace) Get-ChildItem -Recurse -File -Include package.json,requirements.txt,pyproject.toml,main.py,app.py,server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\.venv\Lib\site-packages\annotated_doc
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     19:49           1075 main.py
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\.venv\Lib\site-packages\dotenv
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     19:49          15179 main.py
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\.venv\Lib\site-packages\pip\_internal\cli
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     19:31           3209 main.py
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\.venv\Lib\site-packages\pip\_internal
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     19:31            338 main.py
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\.venv\Lib\site-packages\pydantic\v1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     19:49          45697 main.py
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\.venv\Lib\site-packages\pydantic
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     19:49          91376 main.py
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\.venv\Lib\site-packages\uvicorn
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     19:49          19049 main.py
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\.venv\Lib\site-packages\watchfiles
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     19:49          15539 main.py
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\backend
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     19:19           4399 main.py
+-a----        15-10-2026     19:19            116 requirements.txt
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\.next\types
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:31             18 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\.next
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:31             20 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@egjs\hammerjs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           2546 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@next\env
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            980 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@next\swc-win32-x64-msvc
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            430 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\counter
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            625 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\index
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             74 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_apply_decorated_descriptor
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            118 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_apply_decs_2203_r
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            100 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_array_like_to_array
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            104 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_array_without_holes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            104 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_array_with_holes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             98 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_assert_this_initialized
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            112 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_async_generator
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             96 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_async_generator_delegate
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            114 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_async_iterator
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             94 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_async_to_generator
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            102 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_await_async_generator
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            108 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_await_value
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             88 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_check_private_redeclaration
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            120 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_apply_descriptor_destructure
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            134 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_apply_descriptor_get
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            118 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_apply_descriptor_set
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            118 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_apply_descriptor_update
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            124 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_call_check
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             98 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_check_private_static_access
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            132 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_check_private_static_field_descriptor
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            152 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_extract_field_descriptor
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            126 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_name_tdz_error
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            106 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_private_field_destructure
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            128 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_private_field_get
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            112 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_private_field_init
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            114 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_private_field_loose_base
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            126 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_private_field_loose_key
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            124 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_private_field_set
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            112 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_private_field_update
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            118 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_private_method_get
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            114 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_private_method_init
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            116 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_private_method_set
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            114 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_static_private_field_destructure
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            142 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_static_private_field_spec_get
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            136 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_static_private_field_spec_set
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            136 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_static_private_field_update
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            132 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_class_static_private_method_get
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            128 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_construct
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             84 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_create_class
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             90 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_create_for_of_iterator_helper_loose
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            136 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_create_super
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             90 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_decorate
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             82 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_defaults
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             82 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_define_enumerable_properties
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            122 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_define_property
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             96 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_dispose
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             80 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_export_star
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             88 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_extends
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             80 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_get
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             72 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_get_prototype_of
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             98 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_inherits
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             82 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_inherits_loose
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             94 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_initializer_define_property
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            120 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_initializer_warning_helper
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            118 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_instanceof
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             86 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_interop_require_default
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            112 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_interop_require_wildcard
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            114 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_is_native_function
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            102 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_is_native_reflect_construct
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            120 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_iterable_to_array
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            100 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_iterable_to_array_limit
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            112 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_iterable_to_array_limit_loose
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            124 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_jsx
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             72 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_new_arrow_check
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             96 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_non_iterable_rest
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            100 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_non_iterable_spread
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            104 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_object_destructuring_empty
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            118 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_object_spread
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             92 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_object_spread_props
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            104 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_object_without_properties
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            116 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_object_without_properties_loose
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            128 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_possible_constructor_return
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            120 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_read_only_error
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             96 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_set
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             72 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_set_prototype_of
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             98 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_skip_first_generator_next
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            116 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_sliced_to_array
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             96 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_sliced_to_array_loose
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            108 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_super_prop_base
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             96 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_tagged_template_literal
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            112 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_tagged_template_literal_loose
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            124 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_throw
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             76 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_to_array
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             82 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_to_consumable_array
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            104 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_to_primitive
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             90 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_to_property_key
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             96 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_ts_decorate
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             88 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_ts_generator
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             90 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_ts_metadata
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             88 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_ts_param
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             82 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_ts_values
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             84 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_type_of
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             80 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_unsupported_iterable_to_array
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            124 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_update
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             78 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_using
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             76 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_wrap_async_generator
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            106 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_wrap_native_super
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            100 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers\_\_write_only_error
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             98 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@swc\helpers
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07          17429 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@types\hammerjs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            786 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@types\node
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           6673 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@types\prop-types
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           1152 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@types\react
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           6010 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\@types\react-dom
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           2399 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\busboy
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            810 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\caniuse-lite
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            742 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\client-only
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            467 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\component-emitter
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            536 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\csstype
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           1985 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\graceful-fs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           1031 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\js-tokens
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            649 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\keycharm
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            551 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\loose-envify
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            809 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\nanoid\async
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            233 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\nanoid\non-secure
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             99 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\nanoid\url-alphabet
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             99 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\nanoid
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           2295 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\api
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             80 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\@babel\runtime\helpers\esm
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             35 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\@babel\runtime
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08          28504 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\@edge-runtime\cookies
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             87 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\@edge-runtime\ponyfill
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            111 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\@edge-runtime\primitives
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             90 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\@hapi\accept
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             67 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\@mswjs\interceptors\ClientRequest
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             95 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\@napi-rs\triples
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            104 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\@next\font
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             64 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\@opentelemetry\api
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            104 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\@vercel\nft
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             57 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\@vercel\og
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            340 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\acorn
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             51 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\amphtml-validator
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            102 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\anser
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            127 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\arg
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             87 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\assert
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             53 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\async-retry
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             57 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\async-sema
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             80 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\babel
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            109 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\babel-packages
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             56 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\browserify-zlib
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            109 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\browserslist
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            102 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\buffer
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            146 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\bytes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            125 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\ci-info
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            125 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\cli-select
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             94 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\client-only
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            467 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\commander
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            102 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\comment-json
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             79 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\compression
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             57 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\conf
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            142 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\constants-browserify
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             58 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\content-disposition
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            128 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\content-type
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            121 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\cookie
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             99 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\cross-spawn
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            100 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\crypto-browserify
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            130 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\css.escape
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            130 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\data-uri-to-buffer
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            131 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\debug
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             98 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\devalue
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             59 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\domain-browser
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            123 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\edge-runtime
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             58 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\events
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            128 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\find-cache-dir
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             60 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\find-up
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            145 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\fresh
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            125 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\get-orientation
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            113 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\glob
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            112 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\gzip-size
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            147 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\http-proxy
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            111 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\http-proxy-agent
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            129 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\https-browserify
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            153 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\https-proxy-agent
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            130 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\icss-utils
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             80 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\ignore-loader
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             43 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\image-size
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            113 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\is-animated
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            114 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\is-docker
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            147 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\is-wsl
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            144 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\jest-worker
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             57 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\json5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            102 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\jsonwebtoken
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             75 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\loader-runner
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             99 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\loader-utils2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             91 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\loader-utils3
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             91 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\lodash.curry
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            145 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\lru-cache
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             96 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\mini-css-extract-plugin
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            100 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\nanoid
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             97 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\native-url
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             90 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\neo-async
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             55 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\node-fetch
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             79 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\node-html-parser
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            104 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\ora
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            149 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\os-browserify
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            104 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\p-limit
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            153 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\path-browserify
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            152 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\picomatch
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            116 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\platform
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            103 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\postcss-flexbugs-fixes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            111 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\postcss-modules-extract-imports
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            101 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\postcss-modules-local-by-default
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            104 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\postcss-modules-scope
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             91 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\postcss-modules-values
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             92 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\postcss-preset-env
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            122 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\postcss-safe-parser
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            114 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\postcss-scss
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            108 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\postcss-value-parser
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            113 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\process
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            102 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\punycode
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            126 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\querystring-es3
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             95 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\raw-body
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            124 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\react
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            431 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\react-dom
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08           1660 package.json
+-a----        15-10-2026     20:07             58 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\react-dom-experimental
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08           1734 package.json
+-a----        15-10-2026     20:07             58 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\react-experimental
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            444 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\react-is
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            505 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\react-refresh
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            882 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\react-server-dom-turbopack
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08           1725 package.json
+-a----        15-10-2026     20:07            194 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\react-server-dom-turbopack-experimental
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08           1748 package.json
+-a----        15-10-2026     20:07            194 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\react-server-dom-webpack
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08           1694 package.json
+-a----        15-10-2026     20:07            194 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\react-server-dom-webpack-experimental
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08           1717 package.json
+-a----        15-10-2026     20:07            194 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\regenerator-runtime
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            477 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\sass-loader
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             79 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\scheduler
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             87 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\scheduler-experimental
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            100 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\schema-utils2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            122 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\schema-utils3
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            122 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\semver
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             52 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\send
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             97 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\server-only
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            467 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\setimmediate
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             83 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\shell-quote
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            148 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\source-map
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            123 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\source-map08
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            125 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\stacktrace-parser
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            153 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\stream-browserify
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            154 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\stream-http
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             80 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\string-hash
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            134 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\string_decoder
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             69 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\strip-ansi
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            148 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\superstruct
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             58 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\tar
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             72 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\terser
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            138 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\text-table
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            147 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\timers-browserify
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            131 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\tty-browserify
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            151 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\ua-parser-js
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            128 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\unistore
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            102 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\util
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            106 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\vm-browserify
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            150 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\watchpack
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             92 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\web-vitals
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            168 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\web-vitals-attribution
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            180 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\webpack
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             88 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\webpack-sources1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             94 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\webpack-sources3
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             94 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\ws
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            114 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\compiled\zod
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08             99 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\esm\api
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             80 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\esm\server\typescript\rules
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           3351 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\experimental\testmode\proxy
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           2350 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\experimental\testmode
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           1696 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\server\typescript\rules
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           3563 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT
+    HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next\dist\src\compiled\@ampproject\toolbox-optimizer
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08            106 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\next
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:08           9992 package.json
+-a----        15-10-2026     20:07           1123 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\picocolors
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            552 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\postcss
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           2496 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\react
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            999 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\react-dom
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           1353 package.json
+-a----        15-10-2026     20:07             58 server.js
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\scheduler
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            700 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\source-map-js
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           2548 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\streamsearch
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            842 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\styled-jsx
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           3142 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\tslib\modules
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07             26 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\tslib
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           1219 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\typescript
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           3615 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\undici-types
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           1193 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\uuid
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           4539 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\vis-data
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           6519 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\vis-network
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           5778 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend\node_modules\vis-util
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07           3976 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\frontend
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     20:07            598 package.json
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\trace\Lib\site-packages\dotenv
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        16-10-2026     20:50          15179 main.py
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\trace\Lib\site-packages\pip\_internal\cli
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     19:37           3209 main.py
+
+
+    Directory: E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace\trace\Lib\site-packages\pip\_internal
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-10-2026     19:37            338 main.py
+
+
+PS E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace>
+(trace) python --version
+
+PS E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace>
+(trace) python -m pip check
+
+PS E:\DRIVE_DC\Academics\CSIT HUSTLE\Projects\trace-hackathon-project\trace-hackathon-project\trace>
+(trace) Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20261016215053
+**********************
